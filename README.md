@@ -26,3 +26,8 @@ Windows: https://docs.docker.com/desktop/setup/install/windows-install/
 ### Once the container is running, open your browser and go to:
 
 `http://localhost:3000`
+
+
+### Live Demo url
+
+`https://mirreyaz1111.github.io/newsapp/`
