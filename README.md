@@ -7,18 +7,22 @@ Mac: https://docs.docker.com/desktop/setup/install/mac-install/
 Windows: https://docs.docker.com/desktop/setup/install/windows-install/
 
 
-# make sure the docker is up and running
+### make sure the docker is up and running
 
 ## Steps to Run
 
-### 1. Build the Container
+### 1. Clone the github repo
 
-docker build -t react-app:dev .
+`git clone https://github.com/mirreyaz1111/newsapp.git`
 
-### 2. Run the container
+### 2. Build the Container
 
-docker run -p 3000:3000 react-app:dev
+`docker build -t react-app:dev .`
 
-# Once the container is running, open your browser and go to:
+### 3. Run the container
 
-http://localhost:3000
+`docker run -p 3000:3000 react-app:dev`
+
+### Once the container is running, open your browser and go to:
+
+`http://localhost:3000`
